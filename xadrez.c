@@ -57,3 +57,14 @@ int main() {
     printf("=== SIMULADOR DE MOVIMENTOS DE XADREZ ===\n");
     printf("=== Teste de desempenho para equipe MateCheck ===\n\n");
 
+    // Movimentos com diferentes estruturas de repetição
+    
+    moverBispo();   // for
+    
+    moverTorre();    //  while
+    
+    moverRainha();   //  do-while
+
+    printf("\nTeste de movimentos concluído com sucesso!\n");
+    return 0;
+}
